@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cw5-hh-db"
+version = "0.1.0"
+description = ""
+authors = ["Saysuu <skysaika@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "cw5_hh_db"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
