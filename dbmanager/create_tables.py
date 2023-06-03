@@ -1,6 +1,7 @@
 import psycopg2.errors
 
-from cw_hh_db.db_manager.connect_db import ConnectDB
+from dbmanager.connect_db import ConnectDB
+
 
 def table_exists(cursor, table_name):
     """Функция проверки существования таблицы"""

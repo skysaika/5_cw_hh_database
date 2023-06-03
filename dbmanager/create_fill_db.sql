@@ -20,6 +20,8 @@ CREATE TABLE {table_name}
 employer_name varchar(100),
 employer_url varchar(200));
 
+
+---Вставка данных в таблицы
 INSERT INTO {table_name} VALUES (%s, %s, %s)',
 (employer['id'],
  employer['name'],

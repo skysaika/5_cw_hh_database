@@ -3,7 +3,8 @@ import psycopg2.errors
 import os
 from dotenv import load_dotenv
 
-from cw_hh_db.parser.request_hh import HH
+from parser.request_hh import HH
+
 
 def table_exists(cursor, table_name):
     """Функция проверки существования таблицы"""

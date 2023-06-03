@@ -1,4 +1,4 @@
-from cw_hh_db.db_manager.connect_db import ConnectDB
+from dbmanager.connect_db import ConnectDB
 
 
 class DBManager:
