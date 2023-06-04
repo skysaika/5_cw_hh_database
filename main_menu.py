@@ -8,8 +8,8 @@ def main():
         'skyeng', 'skillbox', 'Kaspersky lab', 'Яндекс Практикум', 'Вконтакте',
         'LG Electronics Inc.', 'SberTech', 'Google', 'Газпромбанк', 'GeekBrains'
     ]
-    user_input_emp = input("Введите имя таблицы с работодателями: ")
-    user_input_vac = input("Введите имя таблицы с вакансиями: ")
+    user_input_emp = "employers"
+    user_input_vac = "vacancies"
 
     tables_creator = TablesCreator()
     tables_creator.create_employers(user_input_emp)
